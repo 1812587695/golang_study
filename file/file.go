@@ -25,10 +25,6 @@ func checkFileIsExist(filename string) bool {
 	return exist
 }
 
-/**
-  from: http://www.isharey.com/?p=143
-*/
-
 func main() {
 	var wireteString = "测试n"
 	var filename = "./output1.txt"
