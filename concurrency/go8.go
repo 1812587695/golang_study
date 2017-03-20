@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	fmt.Println(time.Now())
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	c := make(chan bool, 10) // 这里循环10次，我设置10个缓存
@@ -22,7 +23,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		<-c
 	}
-	fmt.Println(time.Second)
+	fmt.Println(time.Now())
 }
 
 func Go(c chan bool, index int) {
