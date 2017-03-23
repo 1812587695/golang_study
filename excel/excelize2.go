@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"strconv"
 
 	"github.com/Luxurioust/excelize"
 )
@@ -10,13 +11,22 @@ import (
 func main() {
 	xlsx := excelize.CreateFile()
 
-	xlsx.SetCellValue("Sheet1", "A1", "草年末")
-	xlsx.SetCellValue("Sheet1", "B1", "b1")
-	xlsx.SetCellValue("Sheet1", "C1", "C1")
+	xlsx.SetCellValue("Sheet1", "A1", "名字")
+	xlsx.SetCellValue("Sheet1", "B1", "年龄")
+	xlsx.SetCellValue("Sheet1", "C1", "大小")
 
-	xlsx.SetCellValue("Sheet1", "A2", "23")
-	xlsx.SetCellValue("Sheet1", "B2", "b2")
-	xlsx.SetCellValue("Sheet1", "C2", "C2")
+	for i := 0; i < 10; i++ {
+
+		num := 2 + i
+		f := strconv.Itoa(num)
+		a := "A" + f
+		b := "B" + f
+		c := "C" + f
+
+		xlsx.SetCellValue("Sheet1", a, "查查")
+		xlsx.SetCellValue("Sheet1", b, "20")
+		xlsx.SetCellValue("Sheet1", c, "123")
+	}
 
 	// Save xlsx file by the given path.
 	err := xlsx.WriteTo("./excelize2.xlsx")
