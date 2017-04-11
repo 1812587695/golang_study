@@ -1,6 +1,7 @@
 package main
 
 import (
+	//	"fmt"
 	"net/http"
 	"time"
 
@@ -30,8 +31,9 @@ func main() {
 		go func(conn *websocket.Conn) {
 			for {
 				_, msg, _ := conn.ReadMessage()
-				println(string(msg))
-				conn.WriteJSON("{'user':'123'}")
+				println(string(msg)) // string函数是将msg为byte类型的转为字符串
+				//				conn.WriteJSON("{'user':'123'}")
+				conn.WriteJSON("{'user':'" + string(msg) + "'}")
 			}
 		}(conn)
 	})
@@ -50,6 +52,18 @@ func main() {
 				})
 			}
 
+		}(conn)
+	})
+
+	http.HandleFunc("/v4/ws", func(w http.ResponseWriter, r *http.Request) {
+		var conn, _ = upgrader.Upgrade(w, r, nil)
+
+		go func(conn *websocket.Conn) {
+			for {
+				_, msg, _ := conn.ReadMessage() //
+
+				conn.WriteJSON("{'user':'" + string(msg) + "'}")
+			}
 		}(conn)
 	})
 
