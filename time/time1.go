@@ -1,9 +1,16 @@
-import "time"
-ticker := time.NewTicker(time.Minute * 1)
-func main(){
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+
+	ticker := time.NewTicker(time.Minute * 1)
 	go func() {
-    for _ = range ticker.C {
-        fmt.Printf("ticked at %v", time.Now())
-    }
-}()
+		for _ = range ticker.C {
+			fmt.Printf("ticked at %v", time.Now())
+		}
+	}()
 }

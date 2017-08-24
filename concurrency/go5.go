@@ -11,6 +11,7 @@ import (
 func main() {
 	// 通过make创建channel 类型为bool,设置缓存
 	c := make(chan bool, 1)
+	d := make(chan bool, 1)
 
 	// 这里会输出
 	//	go func() {
@@ -22,11 +23,19 @@ func main() {
 	// 如何没有设置了有缓存这里就的阻塞的，设置缓存了就不会管了，程序直接运行完毕
 	// 结论有缓存是异步的，无缓存是同步阻塞的
 	// 下面不会输出
-	go func() {
+	go func(c <-chan bool, d chan<- bool) {
 		fmt.Println("hello world!!")
-		<-c
+		for a := range c {
+			fmt.Println(a)
+		}
+		//		<-c
+		d <- true
 
-	}()
+	}(c, d)
+
 	c <- true
+	close(c)
+
+	<-d
 
 }
