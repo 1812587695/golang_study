@@ -15,6 +15,7 @@ func main() {
 	for e := l.Front(); e != nil; e = e.Next() {
 		fmt.Print(e.Value) //输出list的值,01234
 	}
+	fmt.Println("---")
 	fmt.Println(l.Front().Value) //输出首部元素的值,0
 	fmt.Println(l.Back().Value)  //输出尾部元素的值,4
 	l.InsertAfter(6, l.Front())  //首部元素之后插入一个值为6的元素

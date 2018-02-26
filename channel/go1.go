@@ -5,6 +5,7 @@ package main
 
 import (
 	"fmt"
+	//	"time"
 )
 
 func comein(oneway chan<- string, msg string) {
@@ -24,5 +25,7 @@ func main() {
 	mainroad := make(chan string, 1)
 	comein(oneway, "我的车")
 	goout(oneway, mainroad)
+	//	time.Sleep(2 * time.Second)
 	fmt.Println(<-mainroad, "离开主路")
+	fmt.Println("是两地分居")
 }
