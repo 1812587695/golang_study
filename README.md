@@ -169,23 +169,23 @@ for range 语法我们已经见了很多次了，它是多功能的，除了可�
     import "fmt"
 
     func send(ch chan int) {
-    ch <- 1
-    ch <- 2
-    ch <- 3
-    ch <- 4
-    close(ch)
+        ch <- 1
+        ch <- 2
+        ch <- 3
+        ch <- 4
+        close(ch)
     }
 
     func recv(ch chan int) {
-    for v := range ch {
-    fmt.Println(v)
-    }
+        for v := range ch {
+        fmt.Println(v)
+        }
     }
 
     func main() {
-    var ch = make(chan int, 1)
-    go send(ch)
-    recv(ch)
+        var ch = make(chan int, 1)
+        go send(ch)
+        recv(ch)
     }
 
     -----------
@@ -202,33 +202,33 @@ for range 语法我们已经见了很多次了，它是多功能的，除了可�
     import "sync"
 
     func send(ch chan int, wg *sync.WaitGroup) {
-    defer wg.Done() // 计数值减一
-    i := 0
-    for i < 4 {
-        i++
-        ch <- i
-    }
+        defer wg.Done() // 计数值减一
+        i := 0
+        for i < 4 {
+            i++
+            ch <- i
+        }
     }
 
     func recv(ch chan int) {
-    for v := range ch {
-        fmt.Println(v)
-    }
+        for v := range ch {
+            fmt.Println(v)
+        }
     }
 
     func main() {
-    var ch = make(chan int, 4)
-    var wg = new(sync.WaitGroup)
-    wg.Add(2) // 增加计数值
-    go send(ch, wg)  // 写
-    go send(ch, wg)  // 写
-    go recv(ch)
-    // Wait() 阻塞等待所有的写通道协程结束
-    // 待计数值变成零，Wait() 才会返回
-    wg.Wait()
-      // 关闭通道
-    close(ch)
-    time.Sleep(time.Second)
+        var ch = make(chan int, 4)
+        var wg = new(sync.WaitGroup)
+        wg.Add(2) // 增加计数值
+        go send(ch, wg)  // 写
+        go send(ch, wg)  // 写
+        go recv(ch)
+        // Wait() 阻塞等待所有的写通道协程结束
+        // 待计数值变成零，Wait() 才会返回
+        wg.Wait()
+          // 关闭通道
+        close(ch)
+        time.Sleep(time.Second)
     }
 
     ---------
@@ -274,14 +274,14 @@ for range 语法我们已经见了很多次了，它是多功能的，除了可�
 
 
     func main() {
-      var ch1 = make(chan int)
-      var ch2 = make(chan int)
-      var ch3 = make(chan int)
-      go send(ch1, time.Second)
-      go send(ch2, 2 * time.Second)
-      go collect(ch1, ch3)
-      go collect(ch2, ch3)
-      recv(ch3)
+        var ch1 = make(chan int)
+        var ch2 = make(chan int)
+        var ch3 = make(chan int)
+        go send(ch1, time.Second)
+        go send(ch2, 2 * time.Second)
+        go collect(ch1, ch3)
+        go collect(ch2, ch3)
+        recv(ch3)
     }
 
     ---------
@@ -317,22 +317,22 @@ for range 语法我们已经见了很多次了，它是多功能的，除了可�
     }
 
     func recv(ch1 chan int, ch2 chan int) {
-      for {
+        for {
           select {
               case v := <- ch1:
                   fmt.Printf("recv %d from ch1\n", v)
               case v := <- ch2:
                   fmt.Printf("recv %d from ch2\n", v)
           }
-      }
+        }
     }
 
     func main() {
-      var ch1 = make(chan int)
-      var ch2 = make(chan int)
-      go send(ch1, time.Second)
-      go send(ch2, 2 * time.Second)
-      recv(ch1, ch2)
+        var ch1 = make(chan int)
+        var ch2 = make(chan int)
+        go send(ch1, time.Second)
+        go send(ch2, 2 * time.Second)
+        recv(ch1, ch2)
     }
 
     ------------
