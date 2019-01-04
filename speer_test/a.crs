@@ -1,4 +1,0 @@
-page(@page=1) = "http://xiaorui.cc/page/{@page}/"
-
-news[]: page -> $("div.article")
-    title: $("h4 a").text
