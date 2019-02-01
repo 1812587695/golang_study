@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aa2f406-f2fb-4670-95d2-bfd90cc989ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,52 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main2.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/main2.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-              <folding>
-                <element signature="e#46#224#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crontab.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/crontab/crontab.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInterPushInfo.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hytx_sync/models/UserInterPushInfo.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,17 +86,6 @@
               <item name="golang_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang_study" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="golang_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang_study" type="462c0819:PsiDirectoryNode" />
-              <item name="gin框架整理crontab异步脚本编写程序" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang_study" type="462c0819:PsiDirectoryNode" />
-              <item name="gin框架整理crontab异步脚本编写程序" type="462c0819:PsiDirectoryNode" />
-              <item name="crontab" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -157,7 +100,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hytx_sync" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hytx_media" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -180,15 +123,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Go Build.go build rwmutec2.go">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="golang_study" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="golang_study" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="go build go8_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_study" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -234,16 +168,6 @@
       <package value="golang_study" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="golang_study" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="golang_study" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build go8.go" />
       <item itemvalue="Go Build.go build go8_1.go" />
@@ -263,26 +187,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="254" y="0" width="1300" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25403225" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,160 +219,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="协程池" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurrency/go10_1_sync.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/go10_sync.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/go11.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/go12.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/go13.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/go14.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/select/select1.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/select/select2.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency/6goroutine读取channel，主函数关闭channel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defer/defer1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/main.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/excel.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/excel2.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/file.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flag/flag1.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gob/gob1.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gob/gob2.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gob/gob3.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gob/aes1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/go10_1_sync.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/go10_sync.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/go11.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/go12.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/go13.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/go14.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/select/select1.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/select/select2.go" />
+    <entry file="file://$PROJECT_DIR$/concurrency/6goroutine读取channel，主函数关闭channel.go" />
+    <entry file="file://$PROJECT_DIR$/defer/defer1.go" />
+    <entry file="file://$PROJECT_DIR$/design/main.go" />
+    <entry file="file://$PROJECT_DIR$/excel/excel.go" />
+    <entry file="file://$PROJECT_DIR$/excel/excel2.go" />
+    <entry file="file://$PROJECT_DIR$/file/file.go" />
+    <entry file="file://$PROJECT_DIR$/flag/flag1.go" />
+    <entry file="file://$PROJECT_DIR$/gob/gob1.go" />
+    <entry file="file://$PROJECT_DIR$/gob/gob2.go" />
+    <entry file="file://$PROJECT_DIR$/gob/gob3.go" />
+    <entry file="file://$PROJECT_DIR$/gob/aes1.go" />
     <entry file="file://$PROJECT_DIR$/list/list1.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/log1.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/redis.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reflect/reflect.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/mutex/mutex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/mutex/mutex2.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/cond.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/cond2.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/cond3.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/cond3_1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/cond3_2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/cond4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-563" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/rwmutec.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sync/rwmutec2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log1.go" />
+    <entry file="file://$PROJECT_DIR$/redis/redis.go" />
+    <entry file="file://$PROJECT_DIR$/reflect/reflect.go" />
+    <entry file="file://$PROJECT_DIR$/sync/mutex/mutex.go" />
+    <entry file="file://$PROJECT_DIR$/sync/mutex/mutex2.go" />
+    <entry file="file://$PROJECT_DIR$/sync/cond.go" />
+    <entry file="file://$PROJECT_DIR$/sync/cond2.go" />
+    <entry file="file://$PROJECT_DIR$/sync/cond3.go" />
+    <entry file="file://$PROJECT_DIR$/sync/cond3_1.go" />
+    <entry file="file://$PROJECT_DIR$/sync/cond3_2.go" />
+    <entry file="file://$PROJECT_DIR$/sync/cond4.go" />
+    <entry file="file://$PROJECT_DIR$/sync/rwmutec.go" />
+    <entry file="file://$PROJECT_DIR$/sync/rwmutec2.go" />
     <entry file="file://$PROJECT_DIR$/聊天/client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/go1.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/go2.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/go3.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/其他/工作池.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象/go1.go" />
+    <entry file="file://$PROJECT_DIR$/面向对象/go2.go" />
+    <entry file="file://$PROJECT_DIR$/面向对象/go3.go" />
+    <entry file="file://$PROJECT_DIR$/其他/工作池.go" />
     <entry file="file://$PROJECT_DIR$/聊天/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -457,11 +270,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gorilla/4/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-818" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gorilla/4/main.go" />
     <entry file="file://$PROJECT_DIR$/gorilla/websocket/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -473,9 +282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,32 +289,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#150#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/runtime/logs/log20181228.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/conf/app.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/.gitignore" />
     <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/main2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <element signature="e#46#224#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,8 +322,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gin框架整理crontab异步脚本编写程序/conf/app.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
