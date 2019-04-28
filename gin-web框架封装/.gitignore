@@ -1,0 +1,5 @@
+/.idea
+/runtime
+conf/app.ini
+conf/ueditor.json
+upload/
